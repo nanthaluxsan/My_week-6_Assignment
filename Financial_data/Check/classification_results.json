@@ -1,0 +1,100 @@
+{
+    "1": {},
+    "10": {
+        "Bank Statements": {
+            "matched_keywords": [
+                "Bank"
+            ],
+            "average_score": 100.0
+        }
+    },
+    "11": {},
+    "12": {
+        "Bank Statements": {
+            "matched_keywords": [
+                "Bank"
+            ],
+            "average_score": 75.0
+        }
+    },
+    "13": {},
+    "14": {},
+    "15": {
+        "Bank Statements": {
+            "matched_keywords": [
+                "Bank"
+            ],
+            "average_score": 100.0
+        }
+    },
+    "16": {
+        "Bank Statements": {
+            "matched_keywords": [
+                "Bank"
+            ],
+            "average_score": 100.0
+        }
+    },
+    "17": {},
+    "18": {},
+    "19": {
+        "Bank Statements": {
+            "matched_keywords": [
+                "Bank"
+            ],
+            "average_score": 75.0
+        }
+    },
+    "2": {},
+    "20": {},
+    "3": {},
+    "4": {
+        "Bank Statements": {
+            "matched_keywords": [
+                "Bank"
+            ],
+            "average_score": 100.0
+        }
+    },
+    "5": {
+        "Bank Statements": {
+            "matched_keywords": [
+                "Balance",
+                "Bank"
+            ],
+            "average_score": 85.5
+        }
+    },
+    "6": {
+        "Bank Statements": {
+            "matched_keywords": [
+                "Bank"
+            ],
+            "average_score": 100.0
+        }
+    },
+    "7": {
+        "Bank Statements": {
+            "matched_keywords": [
+                "Bank"
+            ],
+            "average_score": 100.0
+        }
+    },
+    "8": {
+        "Bank Statements": {
+            "matched_keywords": [
+                "Bank"
+            ],
+            "average_score": 100.0
+        }
+    },
+    "9": {
+        "Bank Statements": {
+            "matched_keywords": [
+                "Bank"
+            ],
+            "average_score": 100.0
+        }
+    }
+}

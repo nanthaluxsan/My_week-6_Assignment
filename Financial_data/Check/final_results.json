@@ -1,0 +1,145 @@
+{
+    "1": {
+        "Classification": [],
+        "Key_information": {},
+        "table_result": ""
+    },
+    "10": {
+        "Classification": [
+            "Bank Statements",
+            100.0
+        ],
+        "Key_information": {
+            "Branch": [
+                "Hydecabad",
+                100
+            ]
+        },
+        "table_result": ""
+    },
+    "11": {
+        "Classification": [],
+        "Key_information": {},
+        "table_result": ""
+    },
+    "12": {
+        "Classification": [
+            "Bank Statements",
+            75.0
+        ],
+        "Key_information": {},
+        "table_result": ""
+    },
+    "13": {
+        "Classification": [],
+        "Key_information": {},
+        "table_result": ""
+    },
+    "14": {
+        "Classification": [],
+        "Key_information": {},
+        "table_result": ""
+    },
+    "15": {
+        "Classification": [
+            "Bank Statements",
+            100.0
+        ],
+        "Key_information": {
+            "Date": [
+                "",
+                100
+            ]
+        },
+        "table_result": ""
+    },
+    "16": {
+        "Classification": [
+            "Bank Statements",
+            100.0
+        ],
+        "Key_information": {},
+        "table_result": ""
+    },
+    "17": {
+        "Classification": [],
+        "Key_information": {},
+        "table_result": ""
+    },
+    "18": {
+        "Classification": [],
+        "Key_information": {},
+        "table_result": ""
+    },
+    "19": {
+        "Classification": [
+            "Bank Statements",
+            75.0
+        ],
+        "Key_information": {},
+        "table_result": ""
+    },
+    "2": {
+        "Classification": [],
+        "Key_information": {},
+        "table_result": ""
+    },
+    "20": {
+        "Classification": [],
+        "Key_information": {},
+        "table_result": ""
+    },
+    "3": {
+        "Classification": [],
+        "Key_information": {},
+        "table_result": ""
+    },
+    "4": {
+        "Classification": [
+            "Bank Statements",
+            100.0
+        ],
+        "Key_information": {},
+        "table_result": ""
+    },
+    "5": {
+        "Classification": [
+            "Bank Statements",
+            85.5
+        ],
+        "Key_information": {},
+        "table_result": "[{\"('Data', 0)\":null,\"('Data', 1)\":\"0000\",\"('Data', 2)\":null,\"('Data', 3)\":\"21:\",\"('Data', 4)\":null,\"('Data', 5)\":\"0012\",\"('Data', 6)\":null,\"('Data', 7)\":null,\"('Data', 8)\":null,\"('Confidence', 0)\":0,\"('Confidence', 1)\":0.8572675586,\"('Confidence', 2)\":0,\"('Confidence', 3)\":0.7487562299,\"('Confidence', 4)\":0,\"('Confidence', 5)\":0.8902580738,\"('Confidence', 6)\":0,\"('Confidence', 7)\":0,\"('Confidence', 8)\":0}]"
+    },
+    "6": {
+        "Classification": [
+            "Bank Statements",
+            100.0
+        ],
+        "Key_information": {},
+        "table_result": ""
+    },
+    "7": {
+        "Classification": [
+            "Bank Statements",
+            100.0
+        ],
+        "Key_information": {},
+        "table_result": ""
+    },
+    "8": {
+        "Classification": [
+            "Bank Statements",
+            100.0
+        ],
+        "Key_information": {},
+        "table_result": ""
+    },
+    "9": {
+        "Classification": [
+            "Bank Statements",
+            100.0
+        ],
+        "Key_information": {},
+        "table_result": ""
+    }
+}

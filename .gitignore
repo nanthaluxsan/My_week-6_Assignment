@@ -1,0 +1,9 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+
+
+# Ignore IDE project-specific files
+idp_assign_v/

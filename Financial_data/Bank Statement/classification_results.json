@@ -1,0 +1,163 @@
+{
+    "1": {
+        "Bank Statements": {
+            "matched_keywords": [
+                "Bank"
+            ],
+            "average_score": 100.0
+        }
+    },
+    "10": {
+        "Bank Statements": {
+            "matched_keywords": [
+                "Account Number"
+            ],
+            "average_score": 100.0
+        }
+    },
+    "11": {
+        "Bank Statements": {
+            "matched_keywords": [
+                "Bank"
+            ],
+            "average_score": 100.0
+        }
+    },
+    "12": {
+        "Bank Statements": {
+            "matched_keywords": [
+                "Monthly Statement"
+            ],
+            "average_score": 71.0
+        }
+    },
+    "13": {
+        "Bank Statements": {
+            "matched_keywords": [
+                "Account Number",
+                "Statement Date"
+            ],
+            "average_score": 89.5
+        }
+    },
+    "14": {
+        "Bank Statements": {
+            "matched_keywords": [
+                "Bank",
+                "Withdrawal"
+            ],
+            "average_score": 100.0
+        }
+    },
+    "15": {
+        "Bank Statements": {
+            "matched_keywords": [
+                "Bank"
+            ],
+            "average_score": 100.0
+        },
+        "Invoices": {
+            "matched_keywords": [
+                "Customer ID"
+            ],
+            "average_score": 82.0
+        }
+    },
+    "16": {
+        "Bank Statements": {
+            "matched_keywords": [
+                "Bank"
+            ],
+            "average_score": 100.0
+        }
+    },
+    "17": {
+        "Bank Statements": {
+            "matched_keywords": [
+                "Bank"
+            ],
+            "average_score": 100.0
+        }
+    },
+    "18": {
+        "Bank Statements": {
+            "matched_keywords": [
+                "Bank"
+            ],
+            "average_score": 100.0
+        }
+    },
+    "19": {
+        "Bank Statements": {
+            "matched_keywords": [
+                "Account Summary",
+                "Withdrawal"
+            ],
+            "average_score": 91.5
+        }
+    },
+    "2": {
+        "Bank Statements": {
+            "matched_keywords": [
+                "Bank"
+            ],
+            "average_score": 100.0
+        }
+    },
+    "20": {
+        "Bank Statements": {
+            "matched_keywords": [
+                "Bank",
+                "Withdrawal"
+            ],
+            "average_score": 100.0
+        },
+        "Invoices": {
+            "matched_keywords": [
+                "Tax"
+            ],
+            "average_score": 100.0
+        }
+    },
+    "3": {
+        "Bank Statements": {
+            "matched_keywords": [
+                "Bank"
+            ],
+            "average_score": 100.0
+        }
+    },
+    "5": {
+        "Bank Statements": {
+            "matched_keywords": [
+                "Bank"
+            ],
+            "average_score": 100.0
+        }
+    },
+    "6": {
+        "Bank Statements": {
+            "matched_keywords": [
+                "Bank"
+            ],
+            "average_score": 100.0
+        }
+    },
+    "7": {
+        "Bank Statements": {
+            "matched_keywords": [
+                "Bank"
+            ],
+            "average_score": 100.0
+        }
+    },
+    "8": {
+        "Bank Statements": {
+            "matched_keywords": [
+                "Statement Date",
+                "Bank"
+            ],
+            "average_score": 89.5
+        }
+    }
+}
