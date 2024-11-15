@@ -71,6 +71,85 @@ categories = {
         ],
         "threshold": 70,  # Minimum matches required to classify as Invoices
     },
+    "Utility Bills": {
+        "keywords": [
+            "Account Number",
+            "Billing Date",
+            "Service Provider",
+            "Utility",
+            "Electricity",
+            "Water",
+            "Gas",
+            "Due Date",
+            "Consumption",
+            "Meter Reading",
+            "Total Charges",
+            "Billing Period",
+            "Payment Details",
+        ],
+        "threshold": 70,  # Minimum matches required to classify as Utility Bills
+    },
+    "Salary Slips": {
+        "keywords": [
+            "Employee ID",
+            "Employee Name",
+            "Designation",
+            "Department",
+            "Basic Pay",
+            "Allowances",
+            "Deductions",
+            "Gross Pay",
+            "Net Pay",
+            "Salary Month",
+            "Payment Date",
+            "Tax Deduction",
+            "Provident Fund",
+            "Employer",
+            "Payroll",
+        ],
+        "threshold": 70,  # Minimum matches required to classify as Salary Slips
+    },
+    "ITR Forms": {
+        "keywords": [
+            "Income Tax",
+            "Assessment Year",
+            "PAN",
+            "Taxpayer",
+            "Taxable Income",
+            "Refund",
+            "Deductions",
+            "Exemptions",
+            "Gross Total Income",
+            "Advance Tax",
+            "Self Assessment Tax",
+            "Verification",
+            "ITR Form",
+            "Filing Date",
+            "Tax Payment",
+        ],
+        "threshold": 70,  # Minimum matches required to classify as ITR Forms
+    },
+    "Checks": {
+        "keywords": [
+            "Payee",
+            "Drawer",
+            "Amount",
+            "Check Number",
+            "Bank Name",
+            "Date",
+            "Signature",
+            "Account Holder",
+            "Pay to the Order",
+            "MICR Code",
+            "IFSC Code",
+            "Routing Number",
+            "Clearing",
+            "Crossed Check",
+            "Bearer Check",
+            "Postdated Check",
+        ],
+        "threshold": 70,  # Minimum matches required to classify as Checks
+    },
 }
 
 
@@ -122,20 +201,20 @@ def classify_images(pdf_dir_path):
         if img is not None:
             # Extract OCR result from the image
             ocr_result = ocr.ocr(image_path, cls=True)
+            if ocr_result[0] is not None:
+                # Concatenate extracted text from all detected words
+                extracted_text = " ".join(
+                    [line[1][0] for result in ocr_result for line in result]
+                )
 
-            # Concatenate extracted text from all detected words
-            extracted_text = " ".join(
-                [line[1][0] for result in ocr_result for line in result]
-            )
+                # Classify the extracted text
+                classification = classify_text(extracted_text)
 
-            # Classify the extracted text
-            classification = classify_text(extracted_text)
-
-            # Store the classification results
-            page_num = os.path.splitext(filename)[0].split("_")[
-                -1
-            ]  # Get page number from filename
-            classification_results[f"{page_num}"] = classification
+                # Store the classification results
+                page_num = os.path.splitext(filename)[0].split("_")[
+                    -1
+                ]  # Get page number from filename
+                classification_results[f"{page_num}"] = classification
 
     print(f"classification results is {classification_results}")
     # Save the classification results to a JSON file

@@ -5,6 +5,12 @@
                 "Bank"
             ],
             "average_score": 100.0
+        },
+        "Checks": {
+            "matched_keywords": [
+                "Bank Name"
+            ],
+            "average_score": 100.0
         }
     },
     "10": {
@@ -13,6 +19,19 @@
                 "Bank"
             ],
             "average_score": 100.0
+        },
+        "Salary Slips": {
+            "matched_keywords": [
+                "Basic Pay"
+            ],
+            "average_score": 78.0
+        },
+        "Checks": {
+            "matched_keywords": [
+                "Bank Name",
+                "Clearing"
+            ],
+            "average_score": 94.0
         }
     },
     "11": {
@@ -27,9 +46,29 @@
                 "Tax"
             ],
             "average_score": 100.0
+        },
+        "Salary Slips": {
+            "matched_keywords": [
+                "Allowances"
+            ],
+            "average_score": 90.0
+        },
+        "Checks": {
+            "matched_keywords": [
+                "Bank Name",
+                "Signature"
+            ],
+            "average_score": 89.0
         }
     },
-    "12": {},
+    "12": {
+        "ITR Forms": {
+            "matched_keywords": [
+                "Filing Date"
+            ],
+            "average_score": 82.0
+        }
+    },
     "13": {
         "Bank Statements": {
             "matched_keywords": [
@@ -42,14 +81,40 @@
                 "Tax"
             ],
             "average_score": 100.0
+        },
+        "Salary Slips": {
+            "matched_keywords": [
+                "Designation",
+                "Allowances"
+            ],
+            "average_score": 100.0
+        },
+        "Checks": {
+            "matched_keywords": [
+                "Bank Name"
+            ],
+            "average_score": 100.0
         }
     },
     "14": {},
-    "15": {},
+    "15": {
+        "Checks": {
+            "matched_keywords": [
+                "Date"
+            ],
+            "average_score": 75.0
+        }
+    },
     "16": {
         "Bank Statements": {
             "matched_keywords": [
                 "Bank"
+            ],
+            "average_score": 100.0
+        },
+        "Checks": {
+            "matched_keywords": [
+                "Bank Name"
             ],
             "average_score": 100.0
         }
@@ -66,14 +131,59 @@
                 "Tax"
             ],
             "average_score": 100.0
+        },
+        "Salary Slips": {
+            "matched_keywords": [
+                "Allowances"
+            ],
+            "average_score": 90.0
+        },
+        "Checks": {
+            "matched_keywords": [
+                "Signature"
+            ],
+            "average_score": 89.0
         }
     },
     "19": {},
-    "2": {},
+    "2": {
+        "Salary Slips": {
+            "matched_keywords": [
+                "Designation"
+            ],
+            "average_score": 100.0
+        }
+    },
     "20": {},
-    "4": {},
-    "5": {},
-    "7": {},
+    "4": {
+        "Salary Slips": {
+            "matched_keywords": [
+                "Designation",
+                "Department",
+                "Allowances",
+                "Net Pay"
+            ],
+            "average_score": 90.25
+        }
+    },
+    "5": {
+        "Salary Slips": {
+            "matched_keywords": [
+                "Department",
+                "Allowances"
+            ],
+            "average_score": 95.0
+        }
+    },
+    "7": {
+        "Salary Slips": {
+            "matched_keywords": [
+                "Designation",
+                "Provident Fund"
+            ],
+            "average_score": 93.0
+        }
+    },
     "8": {
         "Bank Statements": {
             "matched_keywords": [
@@ -86,6 +196,18 @@
                 "Quantity"
             ],
             "average_score": 75.0
+        },
+        "Salary Slips": {
+            "matched_keywords": [
+                "Net Pay"
+            ],
+            "average_score": 71.0
+        },
+        "Checks": {
+            "matched_keywords": [
+                "Bank Name"
+            ],
+            "average_score": 100.0
         }
     },
     "9": {

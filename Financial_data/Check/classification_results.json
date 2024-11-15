@@ -17,12 +17,37 @@
             "average_score": 75.0
         }
     },
-    "13": {},
+    "13": {
+        "Utility Bills": {
+            "matched_keywords": [
+                "Water"
+            ],
+            "average_score": 80.0
+        },
+        "Checks": {
+            "matched_keywords": [
+                "Date"
+            ],
+            "average_score": 100.0
+        }
+    },
     "14": {},
     "15": {
         "Bank Statements": {
             "matched_keywords": [
                 "Bank"
+            ],
+            "average_score": 100.0
+        },
+        "Salary Slips": {
+            "matched_keywords": [
+                "Net Pay"
+            ],
+            "average_score": 71.0
+        },
+        "Checks": {
+            "matched_keywords": [
+                "Date"
             ],
             "average_score": 100.0
         }
@@ -63,6 +88,18 @@
                 "Bank"
             ],
             "average_score": 85.5
+        },
+        "Salary Slips": {
+            "matched_keywords": [
+                "Net Pay"
+            ],
+            "average_score": 71.0
+        },
+        "Checks": {
+            "matched_keywords": [
+                "IFSC Code"
+            ],
+            "average_score": 78.0
         }
     },
     "6": {

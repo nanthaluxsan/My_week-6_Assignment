@@ -1,0 +1,139 @@
+{
+    "1": {},
+    "10": {},
+    "12": {
+        "Bank Statements": {
+            "matched_keywords": [
+                "Bank"
+            ],
+            "average_score": 75.0
+        },
+        "Invoices": {
+            "matched_keywords": [
+                "Tax"
+            ],
+            "average_score": 100.0
+        },
+        "Utility Bills": {
+            "matched_keywords": [
+                "Electricity",
+                "Meter Reading"
+            ],
+            "average_score": 100.0
+        }
+    },
+    "13": {
+        "Bank Statements": {
+            "matched_keywords": [
+                "Balance",
+                "Bank"
+            ],
+            "average_score": 87.5
+        }
+    },
+    "14": {},
+    "15": {
+        "Bank Statements": {
+            "matched_keywords": [
+                "Account Number",
+                "Account Summary",
+                "Account Holder"
+            ],
+            "average_score": 81.33333333333333
+        },
+        "Utility Bills": {
+            "matched_keywords": [
+                "Account Number"
+            ],
+            "average_score": 100.0
+        },
+        "Checks": {
+            "matched_keywords": [
+                "Account Holder",
+                "Routing Number"
+            ],
+            "average_score": 71.0
+        }
+    },
+    "16": {
+        "Utility Bills": {
+            "matched_keywords": [
+                "Electricity"
+            ],
+            "average_score": 100.0
+        }
+    },
+    "17": {},
+    "18": {
+        "Invoices": {
+            "matched_keywords": [
+                "Tax"
+            ],
+            "average_score": 100.0
+        }
+    },
+    "19": {
+        "Bank Statements": {
+            "matched_keywords": [
+                "Bank"
+            ],
+            "average_score": 100.0
+        },
+        "Utility Bills": {
+            "matched_keywords": [
+                "Water"
+            ],
+            "average_score": 100.0
+        },
+        "Salary Slips": {
+            "matched_keywords": [
+                "Net Pay"
+            ],
+            "average_score": 71.0
+        }
+    },
+    "2": {
+        "Utility Bills": {
+            "matched_keywords": [
+                "Water"
+            ],
+            "average_score": 100.0
+        }
+    },
+    "20": {},
+    "3": {
+        "Invoices": {
+            "matched_keywords": [
+                "Quantity"
+            ],
+            "average_score": 75.0
+        }
+    },
+    "4": {},
+    "6": {},
+    "7": {
+        "Utility Bills": {
+            "matched_keywords": [
+                "Billing Date"
+            ],
+            "average_score": 100.0
+        }
+    },
+    "8": {
+        "Utility Bills": {
+            "matched_keywords": [
+                "Billing Date",
+                "Utility",
+                "Electricity"
+            ],
+            "average_score": 82.0
+        },
+        "Checks": {
+            "matched_keywords": [
+                "Date"
+            ],
+            "average_score": 100.0
+        }
+    },
+    "9": {}
+}

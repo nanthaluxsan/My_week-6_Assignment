@@ -31,7 +31,10 @@
         "table_result": ""
     },
     "13": {
-        "Classification": [],
+        "Classification": [
+            "Utility Bills",
+            80.0
+        ],
         "Key_information": {},
         "table_result": ""
     },
@@ -45,12 +48,7 @@
             "Bank Statements",
             100.0
         ],
-        "Key_information": {
-            "Date": [
-                "",
-                100
-            ]
-        },
+        "Key_information": {},
         "table_result": ""
     },
     "16": {
@@ -76,7 +74,12 @@
             "Bank Statements",
             75.0
         ],
-        "Key_information": {},
+        "Key_information": {
+            "Date": [
+                "",
+                100
+            ]
+        },
         "table_result": ""
     },
     "2": {
