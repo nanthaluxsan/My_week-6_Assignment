@@ -1,0 +1,99 @@
+{
+    "1": {
+        "Bank Statements": {
+            "matched_keywords": [
+                "Bank"
+            ],
+            "average_score": 100.0
+        }
+    },
+    "10": {
+        "Bank Statements": {
+            "matched_keywords": [
+                "Bank"
+            ],
+            "average_score": 100.0
+        }
+    },
+    "11": {
+        "Bank Statements": {
+            "matched_keywords": [
+                "Bank"
+            ],
+            "average_score": 100.0
+        },
+        "Invoices": {
+            "matched_keywords": [
+                "Tax"
+            ],
+            "average_score": 100.0
+        }
+    },
+    "12": {},
+    "13": {
+        "Bank Statements": {
+            "matched_keywords": [
+                "Bank"
+            ],
+            "average_score": 100.0
+        },
+        "Invoices": {
+            "matched_keywords": [
+                "Tax"
+            ],
+            "average_score": 100.0
+        }
+    },
+    "14": {},
+    "15": {},
+    "16": {
+        "Bank Statements": {
+            "matched_keywords": [
+                "Bank"
+            ],
+            "average_score": 100.0
+        }
+    },
+    "18": {
+        "Bank Statements": {
+            "matched_keywords": [
+                "Bank"
+            ],
+            "average_score": 100.0
+        },
+        "Invoices": {
+            "matched_keywords": [
+                "Tax"
+            ],
+            "average_score": 100.0
+        }
+    },
+    "19": {},
+    "2": {},
+    "20": {},
+    "4": {},
+    "5": {},
+    "7": {},
+    "8": {
+        "Bank Statements": {
+            "matched_keywords": [
+                "Bank"
+            ],
+            "average_score": 100.0
+        },
+        "Invoices": {
+            "matched_keywords": [
+                "Quantity"
+            ],
+            "average_score": 75.0
+        }
+    },
+    "9": {
+        "Invoices": {
+            "matched_keywords": [
+                "Tax"
+            ],
+            "average_score": 100.0
+        }
+    }
+}

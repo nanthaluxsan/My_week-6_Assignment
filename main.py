@@ -35,22 +35,22 @@ if __name__ == "__main__":
         for name in os.listdir(directory)
         if os.path.isdir(os.path.join(directory, name))
     ]
-    for i in range(2, len(folders)):
-        base_dir = folders[i]
-        print(base_dir)
-        # Convert PDF to images
-        # pdf_to_images.convert_to_images(pdf_path)
-        ocr_path = os.path.join(base_dir, "ocr_results.json")
-        ocr_extraction.extract_text_from_images(base_dir)
-        classfication_results = page_classification.classify_images(base_dir)
-        classfication_keys = check_pages(classfication_results)
+    # for i in range(2, len(folders)):
+    base_dir = folders[3]
+    print(base_dir)
+    # Convert PDF to images
+    # pdf_to_images.convert_to_images(pdf_path)
+    ocr_path = os.path.join(base_dir, "ocr_results.json")
+    ocr_extraction.extract_text_from_images(base_dir)
+    classfication_results = page_classification.classify_images(base_dir)
+    classfication_keys = check_pages(classfication_results)
 
-        key_value_results = key_value_extraction.extract_key_info_from_ocr_results(
-            ocr_path, classfication_keys
-        )
-        table_results = table_extraction.extract_tables_from_images(base_dir)
+    key_value_results = key_value_extraction.extract_key_info_from_ocr_results(
+        ocr_path, classfication_keys
+    )
+    table_results = table_extraction.extract_tables_from_images(base_dir)
 
-        post_processing.extract_combined_information(
-            classfication_results, key_value_results, table_results, base_dir
-        )
-        print(classfication_results.keys())
+    post_processing.extract_combined_information(
+        classfication_results, key_value_results, table_results, base_dir
+    )
+    print(classfication_results.keys())
