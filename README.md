@@ -145,7 +145,7 @@ if __name__ == "__main__":
 
 ## Outputs
 
-ouputs which are in json format, are saved in the same files. (bank statement folder)
+outputs which are in json format, are saved in the same files. (bank statement folder)
 
 ## Conclusion
 
