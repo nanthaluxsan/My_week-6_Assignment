@@ -35,7 +35,7 @@ if __name__ == "__main__":
         for name in os.listdir(directory)
         if os.path.isdir(os.path.join(directory, name))
     ]
-    for i in range(2, len(folders)):
+    for i in range(len(folders)):
         base_dir = folders[i]
         print(base_dir)
         # Convert PDF to images
