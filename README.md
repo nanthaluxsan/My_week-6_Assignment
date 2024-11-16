@@ -1,6 +1,6 @@
-# Image Classifier
+# Automated Financial Document Processing Script Overview
 
-A simple Python project that classifies images using a pre-trained ResNet model. This project uses the CIFAR-10 dataset for training and can classify images into one of 10 categories.
+Handling financial documents often involves extracting structured information from unstructured sources like PDFs. This script streamlines the process by integrating multiple automated steps, including OCR, page classification, key-value extraction, and table recognition. By leveraging modular components, it processes financial data efficiently and outputs actionable insights. The customizable design allows users to adapt the workflow to various directory structures and requirements, making it a powerful tool for financial data analysis and management..
 
 ## Table of Contents
 
