@@ -7,6 +7,7 @@ A simple Python project that classifies images using a pre-trained ResNet model.
 - [Overview](#overview)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Outputs](#Output)
 - [Conclusion](#Conclusion)
 
 ## Overview
