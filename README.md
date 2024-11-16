@@ -36,7 +36,7 @@ This modular approach ensures flexibility and scalability for processing financi
 
 ### Prerequisites
 
-- Python 3.x
+- Python 3.x>=3.10
 - pip
 - Virtual environment (optional but recommended)
 
@@ -141,6 +141,10 @@ if __name__ == "__main__":
         print(classfication_results.keys())
 
 ```
+
+## Outputs
+
+ouputs which are in json format, are saved in the same files. (bank statement folder)
 
 ## Conclusion
 
